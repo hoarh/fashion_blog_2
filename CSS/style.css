@@ -52,6 +52,10 @@ body {
      padding: 10%;
 }
 
+header {
+     width: 100%;
+}
+
 h1 a {
      color:#D00;
      font-size: 40px;
@@ -64,12 +68,22 @@ a, a:visited {
 
 header nav {
      color: #DDD;
+     width: 100%;
+     text-decoration: none;
 }
 
+div a {
+     color: white;
+     padding-right: 1%;
+     background-color: black;
+     text-decoration: none;
+     padding: 1%;
+     width: 100%;
+}
 
 h3 {
      color: #DDD;
-     padding-top: 4%;
+     padding-top: 5%;
 }
 
 h2 a {
@@ -77,11 +91,11 @@ h2 a {
      font-size: 20px;
 }
 
-div a {
-     text-decoration: underline;
-     color: #DDD;
-     padding-right: 1%;
+span {
+     color: #BBB;
+     font-size: 20px;
 }
+
      
 img {
      width: 100%;
@@ -90,6 +104,9 @@ img {
 article {
      border-bottom: 1px solid #DDD;
      display: inline-block;
+     float: left;
+     width: 66%;
+     margin-right: 2.5%
 }
 
 article p::first-letter {
@@ -100,6 +117,20 @@ article p::first-letter {
      padding-right: 1%;
 }
 
+sidebar {
+     width: 34%;
+     margin: 15%
+     border-bottom: 1px solid #DDD;
+}
+
+
+h5 {
+     color: #BBB;
+     font-weight:bold;
+     font-size: 15px;
+     padding-top: 5%; 
+     padding-bottom: 2%;
+}
 h4 {
       text-align: right;
       padding-bottom: 4%
@@ -121,6 +152,7 @@ nav {
 
 footer p {
      color:#DDD
+     clear: both;
 }
 
 /******************************************
