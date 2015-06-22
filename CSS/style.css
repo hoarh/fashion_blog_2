@@ -99,7 +99,6 @@ article {
      display: inline-block;
      float: left;
      width: 65%;
-     margin-right: 2.5%
 }
 
 article p::first-letter {
@@ -112,8 +111,9 @@ article p::first-letter {
 
 sidebar {
      width: 25%;
-     margin: 10%
      border-bottom: 1px solid #DDD;
+     padding-top: 5%;
+     float: right;
 }
 
 nav img {
