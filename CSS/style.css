@@ -48,8 +48,7 @@ Developer @GA in NYC
 body {
      line-height: 1.4;
      font-family: Lato;
-     margin:.5%;
-     padding: 10%;
+     padding: 5%;
 }
 
 header {
@@ -63,12 +62,6 @@ h1 a {
 
 
 a, a:visited {
-     text-decoration: none;
-}
-
-header nav {
-     color: #DDD;
-     width: 100%;
      text-decoration: none;
 }
 
@@ -105,7 +98,7 @@ article {
      border-bottom: 1px solid #DDD;
      display: inline-block;
      float: left;
-     width: 66%;
+     width: 65%;
      margin-right: 2.5%
 }
 
@@ -118,11 +111,15 @@ article p::first-letter {
 }
 
 sidebar {
-     width: 34%;
-     margin: 15%
+     width: 25%;
+     margin: 10%
      border-bottom: 1px solid #DDD;
 }
 
+nav img {
+     float: right;
+     width: 25%;
+}
 
 h5 {
      color: #BBB;
@@ -150,9 +147,12 @@ nav {
      padding-bottom: 4%;
 }
 
+footer {
+     clear:both;
+}
+
 footer p {
      color:#DDD
-     clear: both;
 }
 
 /******************************************
