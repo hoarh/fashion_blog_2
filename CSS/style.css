@@ -117,7 +117,6 @@ aside {
 
 sidebar {
      margin-top:4%
-     margin-left: 0%;
 }
 
 sidebar h5 {
@@ -125,6 +124,14 @@ sidebar h5 {
      font-weight:bold;
      font-size: 15px;
      padding-top: 5%; 
+}
+
+sidebar ul li a, sidebar ul li a:visited {
+     color:#D00;
+}
+
+sidebar ul li {
+     list-style-type: circle;
 }
 
 sidebar h4{
