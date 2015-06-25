@@ -48,11 +48,7 @@ Developer @GA in NYC
 body {
      line-height: 1.4;
      font-family: Lato;
-     padding: 5%;
-}
-
-header {
-     width: 100%;
+     margin: 5%;
 }
 
 h1 a {
@@ -69,12 +65,17 @@ div a {
      color: white;
      padding-right: 1%;
      background-color: black;
-     text-decoration: none;
      padding: 1%;
      width: 100%;
 }
 
-h3 {
+main {
+     float: left;
+     width: 68%;
+     margin-right: 2%;
+}
+
+article h3 {
      color: #DDD;
      padding-top: 5%;
 }
@@ -88,7 +89,6 @@ span {
      color: #BBB;
      font-size: 20px;
 }
-
      
 img {
      width: 100%;
@@ -96,41 +96,49 @@ img {
 
 article {
      border-bottom: 1px solid #DDD;
-     display: inline-block;
-     float: left;
-     width: 65%;
 }
 
 article p::first-letter {
      font-size: 80px;
      color: #DDD;
-     float: left;
      padding-left: 1%;
      padding-right: 1%;
 }
 
+aside {
+     float: right;
+     width: 30%;
+}
+
 sidebar {
-     width: 25%;
-     border-bottom: 1px solid #DDD;
-     padding-top: 5%;
-     float: right;
+     margin-top:4%
+     margin-left: 0%;
 }
 
-nav img {
-     float: right;
-     width: 25%;
-}
-
-h5 {
+sidebar h5 {
      color: #BBB;
      font-weight:bold;
      font-size: 15px;
      padding-top: 5%; 
-     padding-bottom: 2%;
 }
+
+sidebar h4{
+     border-bottom: 1px solid #DDD;
+}
+
+
+nav img {
+      margin:4%;
+}
+
+nav img {
+     width: 100%;
+     border-bottom: 1px solid #DDD;
+}
+
+
 h4 {
       text-align: right;
-      padding-bottom: 4%
 }
 
 h4 a {
@@ -138,20 +146,27 @@ h4 a {
      color: #D00;
 }
 
-nav a {
+footer {
+     clear:both;
+     width: 100%;
+}
+
+footer ul {
+     color:#D00;
+     padding: 0;
+}
+
+footer ul li {
+     float: left;
+     padding: .5%;
+}
+
+footer ul li a, footer ul li a:visited {
      color:#D00;
 }
 
-nav {
-     padding-top: 4%;
-     padding-bottom: 4%;
-}
-
-footer {
-     clear:both;
-}
-
 footer p {
+     clear:both;
      color:#DDD
 }
 
