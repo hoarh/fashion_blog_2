@@ -61,13 +61,18 @@ a, a:visited {
      text-decoration: none;
 }
 
-div a {
+nav ul li a {
      color: white;
      padding-right: 1%;
      background-color: black;
+     border-right: 1px solid white;
+     text-align: center;
      padding: 1%;
-     width: 100%;
+     width: 16.6%;
+     float: left;
 }
+
+
 
 main {
      float: left;
@@ -126,12 +131,8 @@ sidebar h4{
      border-bottom: 1px solid #DDD;
 }
 
-
 nav img {
-      margin:4%;
-}
-
-nav img {
+     margin:4%;
      width: 100%;
      border-bottom: 1px solid #DDD;
 }
